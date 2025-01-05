@@ -44,7 +44,7 @@ hands = mp_hands.Hands(
 mp_draw = mp.solutions.drawing_utils
 
 # Initialize Gemini AI
-genai.configure(api_key="AIzaSyDnqZ9-31INSLFHd3jFHc3eqdc6AN2C3EI")  # Replace with your API key
+genai.configure(api_key="Add your own api key")  # Replace with your API key
 model = genai.GenerativeModel('gemini-1.5-flash')
 
 def initialize_camera():
